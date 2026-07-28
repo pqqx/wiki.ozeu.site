@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おぜうの集い Wiki</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; }
+        code { background: #eee; padding: 2px 4px; border-radius: 3px; }
+        pre code { display: block; padding: 10px; overflow-x: auto; }
+        blockquote { border-left: 4px solid #ccc; margin: 0; padding-left: 10px; color: #666; }
+    </style>
+</head>
+<body>
+<div id="wiki-content"></div>
+<script type="text/template" id="hentai">
+# おぜうの集いWiki
+## おぜうの集いとは？
+おぜうの集いとは、主にDiscordサーバーへ荒らしを行っている荒らしサーバーの名称である。おぜうの集いは別名におぜう、ACVR、荒らし枢軸軍や、蔑称におぜいといった名前がある。
+## おぜうの集いの経歴
+2024/08/20  おぜうの集い結成
+2025/10/09	サーバーが飛ぶ
+2025/10/10	荒らし共栄圏をnuke
+2025/10/30  URAWAZAのサーバーを飛ばす
+2025/11/01	discord.gg/rapuromuを取得(現在は期限切れ)
+2025/11/04	DPKOにRAIDする
+2025/11/06	系列鯖へも襲撃
+2025/11/06  荒娯楽と和解
+2025/11/07  これあ家をRAID
+2025/11/12  ホロライブと鉄道系列サーバーへの宣戦布告
+2025/11/15	おぜうのサーバーが飛ぶ
+2025/11/22	AARRによりサーバーが飛ぶ
+2025/11/23	サーバー復活
+2025/12/17  幹部のpxho(通称:すーちゃん)とむめーにより裏切り及びめじこんタグサーバーからの敵対
+2026/02/10  めじこんタグサーバーと和解
+2026/05/23	めじこんタグサーバー及びNERVの協力、幹部の裏切りでNUKE&ALLBANされる
+2026/06/01  ザビャン鯖へ攻撃
+2026/07/02  discord.gg/jpを取得
+2026/07/04	ロブ鉄迫害キャンペーン
+## 幹部及びメンバーについて
+### おぜう
+おぜうの集いの最高指導者であり、おぜうの集いの創設者。性別は男。気の乗り替わりが早い。作ったプロジェクトは気が向かなくなると放置する。人集めには唯一無二。人脈には非常に富んでおり、金もそれなりに所持している。横揺れ動画を投稿するなど、流行りには乗りやすい。主な使用機種はMacbookが確認される。スマホの機種は不明。本名と顔は特定済みのようであるが、本当かどうかはわからない。志望高校はFランではないため学力もあると言える。基本的に人を雑に扱うのが当たり前である。
+### ぜっとぷらす
+おぜうの集いの絵文字やスタンプ、LINEスタンプ、バナーやロゴなど、様々なシーンで絵描きをしている。顔は自ら公開済み。名前は不明。下ネタが好きでたびたび卑猥な言葉を喋っている。成人済み。深く考えて決めることには拒絶する。基本昔某携帯ショップを転々として働いていた。最近はラブホテルで働いている。
+### くらいどる
+おぜうの集いの古参メンバーに部類される。これまでに数々のおぜうの集いの荒らしBot(Explosion、WebTool)などを作成してきた。なお、当の本人はこの仕事にあまり興味がないらしく、ところどころAIの使用の痕跡がある。常に自分の意志を損なわないため客観的な指摘をすることが得意。過去におぜうとぜとぷらの介護をしたことがある。ああぼっとのオーナーのベッドロック作成者である「たか」とは同一人物であるという証拠が数多く存在する。
+### むめー
+過去によくDiscord外の荒らし部門として活動していた。[Stoat(Discordの類似コミュニティ)](https://stoat.chat)を荒らしたり、個人ブログで連続投稿を行うなど、主にDiscord外での荒らしに注力していた。尖閣や幹脱など、不正乗車のプロフェッショナルである。改札に関してやけに詳しい。性別は男。本人情報より恵比寿住みと公開されている。現在は高校1年生。過去にらいとせーばーに顔、pxho(すーちゃん)により名字が公開されている。
+### らいとせーばー
+暴れまわってアカ乗っ取られて個人情報晒されて住所公開と顔公開されていつのまにか消えた
+</script>
+<script>
+const hentai = document.getElementById('hentai').innerHTML;
+document.getElementById('wiki-content').innerHTML = marked.parse(hentai, { breaks: true });
+</script>
+</body>
+</html>
